@@ -24,7 +24,7 @@ const letters = [
     ipaNote: null,
     forms: { isolated: "ب", initial: "بـ", medial: "ـبـ", final: "ـب" },
     audioFile: "Ar-ba.ogg",
-    similarTo: ["fa"],
+    similarTo: ["fa", "nun"],
     examples: [
       { arabic: "بَاب", transliteration: "baab", meaning: "door" },
       { arabic: "بَيْت", transliteration: "bayt", meaning: "house" },
@@ -172,7 +172,7 @@ const letters = [
     examples: [
       { arabic: "زَهْرَة", transliteration: "zahra", meaning: "flower" },
       { arabic: "زَيْت", transliteration: "zayt", meaning: "oil" },
-      { arabic: "لُغَة", transliteration: "lugha", meaning: "language" }
+      { arabic: "زَرَافَة", transliteration: "zarāfa", meaning: "giraffe" }
     ]
   },
   {
@@ -232,7 +232,7 @@ const letters = [
     ipaNote: "Emphatic D — unique to Arabic; historically a lateral emphatic",
     forms: { isolated: "ض", initial: "ضـ", medial: "ـضـ", final: "ـض" },
     audioFile: "Ar-dad.ogg",
-    similarTo: ["dal", "sad", "ta2"],
+    similarTo: ["dal", "sad", "ta2", "dha"],
     examples: [
       { arabic: "ضَوْء", transliteration: "ḍawʾ", meaning: "light" },
       { arabic: "مَرِيض", transliteration: "marīḍ", meaning: "sick/patient" },
