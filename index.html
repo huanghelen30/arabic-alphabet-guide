@@ -1,5 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-<head><meta charset="UTF-8"><title>Arabic Alphabet Guide</title></head>
-<body><p>Coming soon</p></body>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arabic Alphabet Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">
+        <span lang="ar" dir="rtl">أ ب ت</span>
+        Arabic Alphabet Guide
+      </h1>
+      <button id="theme-toggle" class="btn btn-ghost" aria-label="Toggle dark mode">
+        ☾ Dark mode
+      </button>
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <section class="controls-bar" aria-label="Search and filter">
+      <div class="search-wrapper">
+        <label for="search-input" class="sr-only">Search letters</label>
+        <input
+          type="search"
+          id="search-input"
+          class="search-input"
+          placeholder="Search by name or transliteration…"
+          autocomplete="off"
+        >
+        <button id="search-clear" class="search-clear" style="display:none" aria-label="Clear search">✕</button>
+      </div>
+    </section>
+
+    <section class="progress-section" aria-label="Progress">
+      <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="28" aria-valuenow="0" id="progress-bar">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+      <div class="progress-meta">
+        <span id="progress-count">0 of 28 letters reviewed</span>
+        <button id="progress-reset" class="btn btn-ghost btn-sm">Reset progress</button>
+      </div>
+    </section>
+
+    <div id="no-results" class="no-results" hidden>
+      No letters match your search.
+    </div>
+
+    <section id="cards-container" class="cards-grid" aria-label="Arabic letters">
+      <!-- Letter cards rendered by app.js -->
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Audio from <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener">Wikimedia Commons</a> (CC BY-SA) · Font: Noto Naskh Arabic (SIL OFL)</p>
+  </footer>
+
+  <script src="data/letters.js"></script>
+  <script src="app.js"></script>
+</body>
 </html>
