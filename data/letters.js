@@ -7,7 +7,7 @@ const letters = [
     ipa: "/ʔ/",
     ipaNote: "Functions as a glottal stop or long vowel seat; context-dependent",
     forms: { isolated: "ا", initial: "ا", medial: "ـا", final: "ـا" },
-    audioFile: "audio/alef.ogg",
+    audioFile: "audio/pronunciation_ar_ا.mp3",
     similarTo: [],
     examples: [
       { arabic: "أَسَد", transliteration: "asad", meaning: "lion" },
@@ -23,7 +23,7 @@ const letters = [
     ipa: "/b/",
     ipaNote: null,
     forms: { isolated: "ب", initial: "بـ", medial: "ـبـ", final: "ـب" },
-    audioFile: "audio/ba.ogg",
+    audioFile: "audio/pronunciation_ar_ب.mp3",
     similarTo: ["fa", "nun"],
     examples: [
       { arabic: "بَاب", transliteration: "baab", meaning: "door" },
@@ -39,7 +39,7 @@ const letters = [
     ipa: "/t/",
     ipaNote: null,
     forms: { isolated: "ت", initial: "تـ", medial: "ـتـ", final: "ـت" },
-    audioFile: "audio/ta.ogg",
+    audioFile: "audio/pronunciation_ar_ت.mp3",
     similarTo: ["tha", "ta2"],
     examples: [
       { arabic: "تُفَّاح", transliteration: "tuffāḥ", meaning: "apple" },
@@ -55,7 +55,7 @@ const letters = [
     ipa: "/θ/",
     ipaNote: "Pronounced /s/ or /t/ in many colloquial dialects",
     forms: { isolated: "ث", initial: "ثـ", medial: "ـثـ", final: "ـث" },
-    audioFile: "audio/tha.ogg",
+    audioFile: "audio/pronunciation_ar_ث.mp3",
     similarTo: ["ta", "sin"],
     examples: [
       { arabic: "ثَعْلَب", transliteration: "thaʿlab", meaning: "fox" },
@@ -71,7 +71,7 @@ const letters = [
     ipa: "/dʒ/",
     ipaNote: "/ɡ/ in Egypt; /ʒ/ in Morocco and parts of the Levant",
     forms: { isolated: "ج", initial: "جـ", medial: "ـجـ", final: "ـج" },
-    audioFile: "audio/jim.ogg",
+    audioFile: "audio/pronunciation_ar_ج.mp3",
     similarTo: ["ha", "kha"],
     examples: [
       { arabic: "جَمَل", transliteration: "jamal", meaning: "camel" },
@@ -87,7 +87,7 @@ const letters = [
     ipa: "/ħ/",
     ipaNote: "Pharyngeal — a strong, breathy H; distinct from ه (heh)",
     forms: { isolated: "ح", initial: "حـ", medial: "ـحـ", final: "ـح" },
-    audioFile: "audio/ha.ogg",
+    audioFile: "audio/pronunciation_ar_ح.mp3",
     similarTo: ["jim", "kha", "ha2"],
     examples: [
       { arabic: "حِمَار", transliteration: "ḥimār", meaning: "donkey" },
@@ -103,7 +103,7 @@ const letters = [
     ipa: "/x/",
     ipaNote: "Like 'ch' in Scottish 'loch' or German 'Bach'",
     forms: { isolated: "خ", initial: "خـ", medial: "ـخـ", final: "ـخ" },
-    audioFile: "audio/kha.ogg",
+    audioFile: "audio/pronunciation_ar_خ.mp3",
     similarTo: ["jim", "ha"],
     examples: [
       { arabic: "خُبْز", transliteration: "khubz", meaning: "bread" },
@@ -119,7 +119,7 @@ const letters = [
     ipa: "/d/",
     ipaNote: null,
     forms: { isolated: "د", initial: "د", medial: "ـد", final: "ـد" },
-    audioFile: "audio/dal.ogg",
+    audioFile: "audio/pronunciation_ar_د.mp3",
     similarTo: ["dhal", "dad"],
     examples: [
       { arabic: "دَرْس", transliteration: "dars", meaning: "lesson" },
@@ -135,7 +135,7 @@ const letters = [
     ipa: "/ð/",
     ipaNote: "Like 'th' in 'this'; often /d/ or /z/ in colloquial speech",
     forms: { isolated: "ذ", initial: "ذ", medial: "ـذ", final: "ـذ" },
-    audioFile: "audio/dhal.ogg",
+    audioFile: "audio/pronunciation_ar_ذ.mp3",
     similarTo: ["dal", "dha"],
     examples: [
       { arabic: "ذِئْب", transliteration: "dhiʾb", meaning: "wolf" },
@@ -151,7 +151,7 @@ const letters = [
     ipa: "/r/",
     ipaNote: "A tapped or trilled R — similar to Spanish 'r'",
     forms: { isolated: "ر", initial: "ر", medial: "ـر", final: "ـر" },
-    audioFile: "audio/ra.ogg",
+    audioFile: "audio/pronunciation_ar_ر.mp3",
     similarTo: ["zay"],
     examples: [
       { arabic: "رَأْس", transliteration: "raʾs", meaning: "head" },
@@ -167,7 +167,7 @@ const letters = [
     ipa: "/z/",
     ipaNote: null,
     forms: { isolated: "ز", initial: "ز", medial: "ـز", final: "ـز" },
-    audioFile: "audio/zay.ogg",
+    audioFile: "audio/pronunciation_ar_ز.mp3",
     similarTo: ["ra"],
     examples: [
       { arabic: "زَهْرَة", transliteration: "zahra", meaning: "flower" },
@@ -183,7 +183,7 @@ const letters = [
     ipa: "/s/",
     ipaNote: null,
     forms: { isolated: "س", initial: "سـ", medial: "ـسـ", final: "ـس" },
-    audioFile: "audio/sin.ogg",
+    audioFile: "audio/pronunciation_ar_س.mp3",
     similarTo: ["shin", "sad", "tha"],
     examples: [
       { arabic: "سَمَك", transliteration: "samak", meaning: "fish" },
@@ -199,7 +199,7 @@ const letters = [
     ipa: "/ʃ/",
     ipaNote: "Like 'sh' in 'shoe'",
     forms: { isolated: "ش", initial: "شـ", medial: "ـشـ", final: "ـش" },
-    audioFile: "audio/shin.ogg",
+    audioFile: "audio/pronunciation_ar_ش.mp3",
     similarTo: ["sin"],
     examples: [
       { arabic: "شَمْس", transliteration: "shams", meaning: "sun" },
@@ -215,7 +215,7 @@ const letters = [
     ipa: "/sˤ/",
     ipaNote: "Emphatic S — produced with tongue root retracted, deepening the sound",
     forms: { isolated: "ص", initial: "صـ", medial: "ـصـ", final: "ـص" },
-    audioFile: "audio/sad.ogg",
+    audioFile: "audio/pronunciation_ar_ص.mp3",
     similarTo: ["sin", "dad", "ta2"],
     examples: [
       { arabic: "صَابُون", transliteration: "ṣābūn", meaning: "soap" },
@@ -231,7 +231,7 @@ const letters = [
     ipa: "/dˤ/",
     ipaNote: "Emphatic D — unique to Arabic; historically a lateral emphatic",
     forms: { isolated: "ض", initial: "ضـ", medial: "ـضـ", final: "ـض" },
-    audioFile: "audio/dad.ogg",
+    audioFile: "audio/pronunciation_ar_ض.mp3",
     similarTo: ["dal", "sad", "ta2", "dha"],
     examples: [
       { arabic: "ضَوْء", transliteration: "ḍawʾ", meaning: "light" },
@@ -247,7 +247,7 @@ const letters = [
     ipa: "/tˤ/",
     ipaNote: "Emphatic T — heavier than ت (taa), with tongue root retraction",
     forms: { isolated: "ط", initial: "طـ", medial: "ـطـ", final: "ـط" },
-    audioFile: "audio/tah.ogg",
+    audioFile: "audio/pronunciation_ar_ط.mp3",
     similarTo: ["ta", "sad", "dad"],
     examples: [
       { arabic: "طَائِر", transliteration: "ṭāʾir", meaning: "bird" },
@@ -263,7 +263,7 @@ const letters = [
     ipa: "/ðˤ/",
     ipaNote: "Emphatic Dh — like ذ but with tongue root retraction; often /zˤ/ in modern speech",
     forms: { isolated: "ظ", initial: "ظـ", medial: "ـظـ", final: "ـظ" },
-    audioFile: "audio/dhah.ogg",
+    audioFile: "audio/pronunciation_ar_ظ.mp3",
     similarTo: ["dhal", "dad"],
     examples: [
       { arabic: "ظَرِيف", transliteration: "ẓarīf", meaning: "witty/elegant" },
@@ -279,7 +279,7 @@ const letters = [
     ipa: "/ʕ/",
     ipaNote: "Pharyngeal voiced fricative — no equivalent in English; a constricted, voiced sound from the throat",
     forms: { isolated: "ع", initial: "عـ", medial: "ـعـ", final: "ـع" },
-    audioFile: "audio/ain.ogg",
+    audioFile: "audio/pronunciation_ar_ع.mp3",
     similarTo: ["ghayn"],
     examples: [
       { arabic: "عَيْن", transliteration: "ʿayn", meaning: "eye / spring" },
@@ -295,7 +295,7 @@ const letters = [
     ipa: "/ɣ/",
     ipaNote: "Like a French R — a voiced uvular/velar fricative",
     forms: { isolated: "غ", initial: "غـ", medial: "ـغـ", final: "ـغ" },
-    audioFile: "audio/ghayn.ogg",
+    audioFile: "audio/pronunciation_ar_غ.mp3",
     similarTo: ["ain"],
     examples: [
       { arabic: "غُرْفَة", transliteration: "ghurfa", meaning: "room" },
@@ -311,7 +311,7 @@ const letters = [
     ipa: "/f/",
     ipaNote: null,
     forms: { isolated: "ف", initial: "فـ", medial: "ـفـ", final: "ـف" },
-    audioFile: "audio/fa.ogg",
+    audioFile: "audio/pronunciation_ar_ف.mp3",
     similarTo: ["qaf", "ba"],
     examples: [
       { arabic: "فِيل", transliteration: "fīl", meaning: "elephant" },
@@ -327,7 +327,7 @@ const letters = [
     ipa: "/q/",
     ipaNote: "Uvular stop — deeper than /k/; pronounced /ʔ/ (glottal stop) in Egyptian and Levantine colloquial Arabic",
     forms: { isolated: "ق", initial: "قـ", medial: "ـقـ", final: "ـق" },
-    audioFile: "audio/qaf.ogg",
+    audioFile: "audio/pronunciation_ar_ق.mp3",
     similarTo: ["fa", "kaf"],
     examples: [
       { arabic: "قَلَم", transliteration: "qalam", meaning: "pen" },
@@ -343,7 +343,7 @@ const letters = [
     ipa: "/k/",
     ipaNote: null,
     forms: { isolated: "ك", initial: "كـ", medial: "ـكـ", final: "ـك" },
-    audioFile: "audio/kaf.ogg",
+    audioFile: "audio/pronunciation_ar_ك.mp3",
     similarTo: ["qaf"],
     examples: [
       { arabic: "كَلْب", transliteration: "kalb", meaning: "dog" },
@@ -359,7 +359,7 @@ const letters = [
     ipa: "/l/",
     ipaNote: "Pronounced as emphatic /lˤ/ in the word اللّٰه (Allah)",
     forms: { isolated: "ل", initial: "لـ", medial: "ـلـ", final: "ـل" },
-    audioFile: "audio/lam.ogg",
+    audioFile: "audio/pronunciation_ar_ل.mp3",
     similarTo: [],
     examples: [
       { arabic: "لَيْل", transliteration: "layl", meaning: "night" },
@@ -375,7 +375,7 @@ const letters = [
     ipa: "/m/",
     ipaNote: null,
     forms: { isolated: "م", initial: "مـ", medial: "ـمـ", final: "ـم" },
-    audioFile: "audio/mim.ogg",
+    audioFile: "audio/pronunciation_ar_م.mp3",
     similarTo: [],
     examples: [
       { arabic: "مَاء", transliteration: "māʾ", meaning: "water" },
@@ -391,7 +391,7 @@ const letters = [
     ipa: "/n/",
     ipaNote: null,
     forms: { isolated: "ن", initial: "نـ", medial: "ـنـ", final: "ـن" },
-    audioFile: "audio/nun.ogg",
+    audioFile: "audio/pronunciation_ar_ن.mp3",
     similarTo: ["ba"],
     examples: [
       { arabic: "نَهْر", transliteration: "nahr", meaning: "river" },
@@ -407,7 +407,7 @@ const letters = [
     ipa: "/h/",
     ipaNote: "A soft H like English 'h'; distinct from ح (ḥaa) which is pharyngeal",
     forms: { isolated: "ه", initial: "هـ", medial: "ـهـ", final: "ـه" },
-    audioFile: "audio/ha2.ogg",
+    audioFile: "audio/pronunciation_ar_ه.mp3",
     similarTo: ["ha"],
     examples: [
       { arabic: "هَوَاء", transliteration: "hawāʾ", meaning: "air / wind" },
@@ -423,7 +423,7 @@ const letters = [
     ipa: "/w/",
     ipaNote: "Also serves as long vowel /uː/ and the conjunction 'and'",
     forms: { isolated: "و", initial: "و", medial: "ـو", final: "ـو" },
-    audioFile: "audio/waw.ogg",
+    audioFile: "audio/pronunciation_ar_و.mp3",
     similarTo: ["ya"],
     examples: [
       { arabic: "وَرْد", transliteration: "ward", meaning: "roses / flowers" },
@@ -439,7 +439,7 @@ const letters = [
     ipa: "/j/",
     ipaNote: "Also serves as long vowel /iː/",
     forms: { isolated: "ي", initial: "يـ", medial: "ـيـ", final: "ـي" },
-    audioFile: "audio/ya.ogg",
+    audioFile: "audio/pronunciation_ar_ي.mp3",
     similarTo: ["waw"],
     examples: [
       { arabic: "يَد", transliteration: "yad", meaning: "hand" },
