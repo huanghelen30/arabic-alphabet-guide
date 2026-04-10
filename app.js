@@ -240,6 +240,13 @@ function resolveAudio(letter) {
     return Promise.resolve();
   }
 
+  // Local file in audio/ folder — use directly, no API needed
+  if (letter.audioFile.startsWith('audio/')) {
+    audioCache[letter.audioFile] = letter.audioFile;
+    letter.resolvedAudioUrl = letter.audioFile;
+    return Promise.resolve();
+  }
+
   var apiUrl = 'https://commons.wikimedia.org/w/api.php' +
     '?action=query' +
     '&titles=File:' + encodeURIComponent(letter.audioFile) +
